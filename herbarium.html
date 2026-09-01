@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/mwBlack.png">
+  <title>Marc Wright | GIS Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="banner">
+    <div class="banner-overlay">
+      <h1 class="banner-title">Marc Wright — GIS Portfolio</h1>
+    </div>
+  </header>
+
+  <div class="page-layout">
+
+    <nav class="sidebar">
+      <ul>
+        <li><a href="#herbarium">UCO Herbarium ETL</a></li>
+        <li><a href="#transtel">Trans-Tel Automation</a></li>
+        <li><a href="#cartography">Cartography Work</a></li>
+        <li><a href="#specialTopics">Special Topics Final Project</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>
+    </nav>
+
+    <main class="main-content">
+      <section id="herbarium">
+        <h2>UCO Herbarium ETL Pipeline</h2>
+        <img src="images/wrightInfographicPanelFinal.jpg" alt="Herbarium project screenshot">
+        <p>This project conducted a detailed examination of the University of Central Oklahoma’s Herbarium digitized
+collection, which consists of approximately 11,000 specimen records dating to the early 1900s. The collection
+suffers from quality and accuracy issues common to historical digitized collections; thus, much care was taken
+to preserve as much information as possible while preparing the data for integration within a Geographic
+Information System.</p>
+		<p>A Python script was developed that completes all preprocessing functions of the dataset to prepare it for
+mapping; these functions include addressing geographic precision discrepancies, performing location quality
+control checks, removing certain plant species from public facing deliverables, joining the data with the
+Oklahoma Biodiversity Information System Tracking List [OBIS, 2026], and aggregating data counts. Log files are
+generated throughout to flag any discovered discrepancies. Once the script has fully executed, three output
+files are generated that are ready for mapping into the GIS system.</p>
+		<p>The analysis results showed that, as the client suspected, there is an extreme sampling bias towards areas of
+the state that are in proximity to the University of Central Oklahoma and its satellite office; additionally, the
+digitized collection is heavily skewed towards 15% of all plant families in the state of Oklahoma, with these 26
+plant families comprising 78% of the entire collection.</p>
+		<p>Lastly, the Oklahoma Biodiversity Information System was successfully integrated into the analysis with
+approximately 1% of the herbarium’s collection retaining a state threat ranking based on the NatureServe
+ranking system. While vulnerable species representation is sparse, this GIS system has the capability of being
+updated at the client’s discretion. This integration has the potential to aid the herbarium in threatened species
+and appropriate conservation measures as the number of threatened records continues to accumulate.</p>
+		<p>The GIS system created for the University of Central Oklahoma effectively answers all questions outlined by the
+client and positions them to update the system easily as their collection efforts and the digitization process
+continue.</p>
+      </section>
+    </main>
+
+  </div>
+
+</body>
+</html>
