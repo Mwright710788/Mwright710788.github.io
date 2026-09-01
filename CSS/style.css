@@ -1,13 +1,89 @@
-h1 {
-    color: orange;
-    font-family: "Helvetica", Arial, sans-serif;
-    font-size: 40px;
-    text-align: center;
+.banner {
+  background-image: url("images/banner4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+}
+
+.banner-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-title {
+  -webkit-text-stroke: 1px #333;
+  color: white;
+  font-size: 5rem;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-shadow: 
+	0 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin: 0;
+}
+
+.page-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.sidebar {
+  border-right: 1px solid #ddd;
+  padding-right: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 0.75rem;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+
+.sidebar a:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+.main-content section {
+  margin-bottom: 3rem;
+}
+
+img {
+  max-width: 75%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #333;
 }
 
 p {
-    color: black;
-    font-family: "Helvetica", Arial, sans-serif;
-    font-size: 20px;
-    text-align: center;
+  max-width: 75%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  max-width: 75%;
+  margin: 0 auto;
 }
