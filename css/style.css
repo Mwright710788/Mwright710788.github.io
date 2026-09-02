@@ -53,7 +53,7 @@
   text-decoration: none;
   color: #333;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.75rem;
   letter-spacing: 0.02em;
 }
 
@@ -92,4 +92,13 @@ h1, h2, .banner-title {
 
 body, p {
   font-family: Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 120px;
+  }
+  .banner-title {
+    font-size: 1.5rem;
+  }
 }
