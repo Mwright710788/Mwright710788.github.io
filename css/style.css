@@ -76,7 +76,7 @@ img {
 }
 
 p {
-  color: #767676;
+  color: #444;
   max-width: 75%;
   margin: 0 auto;
   margin-top: 1rem;
@@ -84,7 +84,7 @@ p {
 }
 
 h2 {
-  color: #767676;
+  color: #444;
   max-width: 75%;
   margin: 0 auto;
 }
@@ -96,7 +96,6 @@ h1, h2, .banner-title {
 
 body, p {
   font-family: Helvetica, Arial, sans-serif;
-  margin-bottom: 1rem;
 }
 
 .image-caption {
