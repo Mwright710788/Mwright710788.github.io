@@ -16,7 +16,7 @@
 }
 
 .banner-title {
-  -webkit-text-stroke: 1px #333;
+  -webkit-text-stroke: 1px #767676;
   color: white;
   font-size: 5rem;
   font-weight: 700;
@@ -51,15 +51,15 @@
 
 .sidebar a {
   text-decoration: none;
-  color: #333;
+  color: #767676;
   font-weight: 600;
   font-size: 0.75rem;
   letter-spacing: 0.02em;
 }
 
 .sidebar a:hover {
-  color: #000;
-  border-bottom: 1px solid #000;
+  color: #e2725b;
+  border-bottom: 1px solid #e2725b;
 }
 
 .main-content section {
@@ -71,10 +71,12 @@ img {
   height: auto;
   display: block;
   margin: 0 auto;
-  border: 1px solid #333;
+  margin-bottom: 2rem;
+  border: 2px solid #767676;
 }
 
 p {
+  color: #767676;
   max-width: 75%;
   margin: 0 auto;
   margin-top: 1rem;
@@ -82,16 +84,26 @@ p {
 }
 
 h2 {
+  color: #767676;
   max-width: 75%;
   margin: 0 auto;
 }
 
 h1, h2, .banner-title {
+  text-align: center;
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
 body, p {
   font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.image-caption {
+  width: 1000px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
 }
 
 @media (max-width: 768px) {
