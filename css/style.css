@@ -75,6 +75,15 @@ img {
   border: 2px solid #767676;
 }
 
+h1, h2, .banner-title {
+  text-align: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body, p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 p {
   color: #444;
   max-width: 75%;
@@ -85,17 +94,10 @@ p {
 
 h2 {
   color: #444;
+  text-align: center;
   max-width: 75%;
   margin: 0 auto;
-}
-
-h1, h2, .banner-title {
-  text-align: center;
-  font-family: "Segoe UI", Arial, sans-serif;
-}
-
-body, p {
-  font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: 1rem;
 }
 
 .image-caption {
