@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .banner-title {
@@ -68,6 +69,7 @@
 
 img {
   max-width: 616px;
+  width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -101,10 +103,23 @@ h2 {
 }
 
 .image-caption {
-  width: 1000px;
   max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
   text-align: left;
+}
+
+.hamburger {
+  display: none;
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: white;
+  padding: 0.25rem;
 }
 
 @media (max-width: 768px) {
@@ -114,4 +129,14 @@ h2 {
   .banner-title {
     font-size: 1.5rem;
   }
+  .page-layout {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
 }
+
