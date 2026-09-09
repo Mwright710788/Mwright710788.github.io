@@ -113,12 +113,12 @@ h2 {
   display: none;
   position: absolute;
   top: 0rem;
-  right: 0rem;
-  background: none;
+  left: 0rem;
+  background: white;
   border: none;
   font-size: 1.25rem;
   cursor: pointer;
-  color: white;
+  color: #444;
   padding: 0.25rem;
 }
 
@@ -136,6 +136,9 @@ h2 {
     display: none;
   }
   .hamburger {
+    display: block;
+  }
+  .sidebar.active {
     display: block;
   }
 }
