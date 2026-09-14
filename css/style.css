@@ -117,10 +117,10 @@ h2 {
   left: 0rem;
   background: white;
   border: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   cursor: pointer;
   color: #444;
-  padding: 0.25rem;
+  padding: 0.1rem;
 }
 
 @media (max-width: 768px) {
@@ -128,7 +128,7 @@ h2 {
     height: 120px;
   }
   .banner-title {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
   }
   .page-layout {
     grid-template-columns: 1fr;
