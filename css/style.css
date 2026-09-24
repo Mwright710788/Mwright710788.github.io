@@ -68,7 +68,7 @@
 }
 
 img {
-  max-width: 616px;
+  max-width: 90%;
   width: 100%;
   height: auto;
   display: block;
@@ -103,7 +103,7 @@ h2 {
 }
 
 .image-caption {
-  max-width: 1000px;
+  max-width: 90%;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 1rem;
