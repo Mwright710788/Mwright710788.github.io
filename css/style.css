@@ -68,13 +68,13 @@
 }
 
 img {
-  max-width: 75%;
+  max-width: 55%;
   width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
   margin-bottom: 2rem;
-  border: 2px solid #767676;
+  border: .1rem solid #767676;
 }
 
 h1, h2, .banner-title {
@@ -88,7 +88,7 @@ body, p {
 
 p {
   color: #444;
-  max-width: 75%;
+  max-width: 55%;
   margin: 0 auto;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -121,6 +121,22 @@ h2 {
   cursor: pointer;
   color: #444;
   padding: 0.1rem;
+}
+
+.certificate-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  max-width: 55%;
+  margin: 0 auto;
+}
+
+.certificate-row img {
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
 }
 
 @media (max-width: 768px) {
