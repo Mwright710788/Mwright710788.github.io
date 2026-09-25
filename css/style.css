@@ -130,6 +130,7 @@ h2 {
   flex-wrap: wrap;
   max-width: 55%;
   margin: 0 auto;
+  margin-top: 8rem;
 }
 
 .certificate-row img {
