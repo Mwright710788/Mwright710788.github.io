@@ -140,6 +140,36 @@ h2 {
   margin: 0;
 }
 
+.sub-nav {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.sub-nav a {
+  text-decoration: none;
+  color: #767676;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding-left: 1.5rem;
+  flex: 1;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.sub-nav a:not(:first-child) {
+  border-left: 1px solid #ddd;
+}
+
+.sub-nav a:hover {
+  color: #e2725b;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .banner {
     height: 120px;
