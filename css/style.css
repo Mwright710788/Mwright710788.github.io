@@ -179,6 +179,8 @@ h2 {
   }
   .page-layout {
     grid-template-columns: 1fr;
+    gap: 0;
+    padding: 1rem 2rem;
   }
   .sidebar {
     max-height: 0;
@@ -192,6 +194,7 @@ h2 {
   .sidebar.active {
     max-height: 500px;
     border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
   }
 }
 
