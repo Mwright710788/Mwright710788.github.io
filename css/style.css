@@ -170,6 +170,21 @@ h2 {
   text-decoration: underline;
 }
 
+pre {
+  max-width: 75%;
+  max-height: 500px;
+  overflow-y: auto;
+  border: 1px solid #767676;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
+pre code {
+  white-space: pre;
+  overflow-x: auto;
+}
+
 @media (max-width: 768px) {
   .banner {
     height: 120px;
