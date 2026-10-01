@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" href="images/mwBlack.png">
-  <title>Marc Wright | GIS Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-  <header class="banner">
-    <div class="banner-overlay">
-      <button class="hamburger" aria-label="Toggle navigation">☰</button>
-      <h1 class="banner-title">UCO Herbarium Analysis</h1>
-    </div>
-  </header>
-
-  <div class="page-layout">
-
-    <nav class="sidebar">
-      <ul>
-        <li><a href="index.html">Portfolio Home</a></li>
-        <li><a href="uwfCampus.html">UWF Campus</a></li>
-        <li><a href="3d_vis.html">3-D Visualization</a></li>
-        <li><a href="corridor.html">Corridor Analysis</a></li>
-        <li><a href="herbarium.html">UCO Herbarium ETL</a></li>
-        <li><a href="special-topics.html">Special Topics Final Project</a></li>
-        <li><a href="resume.html">Resume</a></li>
-      </ul>
-    </nav>
-
-    <main class="main-content">
-      <nav class="sub-nav">
-        <a href="herbarium.html">Intro & Cartographic Deliverable</a>
-        <a href="herbariumPython.html">Python ETL Script</a>
-        <a href="herbariumStoryMap.html">ArcGIS Story Map</a>
-      </nav>
-      <section id="herbarium">
-        <h2>UCO Herbarium ETL Pipeline - Python Script</h2>
-        <p>This is filler text and will be modified after script has been properly inserted into page.</p>
-        <pre><code class="language-python">
-          ###################################################################################################
+###################################################################################################
 ####
 ####UCO Herbarium ETL Pipeline
 ####created by: Marc Wright
@@ -482,16 +438,4 @@ print("ETL pipeline complete!")
 ####End of UCO Herbarium ETL Pipeline
 ####
 ###################################################################################################
-        </code></pre>
-        <div class="centered-wrapper">
-          <a href="documents/UCO_Herbarium_ETL_Pipeline.py" download class="code-download-link">
-            Download the full Python script (.py)
-          </a>
-        </div>
-      </section>
-    </main>
 
-  </div>
-  <script src="js/script.js"></script>
-</body>
-</html>

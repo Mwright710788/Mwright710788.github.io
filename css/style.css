@@ -50,7 +50,8 @@
   margin-bottom: 0.75rem;
 }
 
-.sidebar a {
+.sidebar a,
+.code-download-link  {
   text-decoration: none;
   color: #767676;
   font-weight: 600;
@@ -58,9 +59,14 @@
   letter-spacing: 0.02em;
 }
 
-.sidebar a:hover {
+.sidebar a:hover,
+.code-download-link:hover {
   color: #e2725b;
   border-bottom: 1px solid #e2725b;
+}
+
+.main-content {
+  min-width: 0;
 }
 
 .main-content section {
@@ -185,7 +191,22 @@ pre code {
   overflow-x: auto;
 }
 
+.centered-wrapper {
+  text-align: center;
+}
+
 @media (max-width: 768px) {
+  pre {
+    display: none;
+  }
+  .code-download-link {
+    display: inline-block;
+    color: #767676;
+    font-weight: 600;
+    text-decoration: underline;
+    margin: 1rem auto;
+    text-align: center;
+  }
   .banner {
     height: 120px;
   }
