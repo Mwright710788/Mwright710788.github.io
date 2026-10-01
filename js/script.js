@@ -1,4 +1,6 @@
-hljs.highlightAll();
+if (typeof hljs !== "undefined") {
+    hljs.highlightAll();
+}
 
 const hamburger = document.querySelector('.hamburger');
 const sidebar = document.querySelector('.sidebar');
