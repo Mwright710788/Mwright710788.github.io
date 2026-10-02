@@ -51,7 +51,8 @@
 }
 
 .sidebar a,
-.code-download-link  {
+.code-download-link,
+.other-link  {
   text-decoration: none;
   color: #767676;
   font-weight: 600;
@@ -60,7 +61,8 @@
 }
 
 .sidebar a:hover,
-.code-download-link:hover {
+.code-download-link:hover,
+.other-link:hover {
   color: #e2725b;
   border-bottom: 1px solid #e2725b;
 }
@@ -195,7 +197,21 @@ pre code {
   text-align: center;
 }
 
+.storymap-link {
+  display: none;
+}
+
 @media (max-width: 768px) {
+  .storymap-embed {
+    display: none;
+  }
+  .storymap-link {
+    display: inline-block;
+    color: #767676;
+    font-weight: 600;
+    text-decoration: underline;
+    margin: 1rem auto;
+  }
   pre {
     display: none;
   }
