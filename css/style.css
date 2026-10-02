@@ -197,14 +197,7 @@ pre code {
   text-align: center;
 }
 
-.storymap-link {
-  display: none;
-}
-
 @media (max-width: 768px) {
-  .storymap-embed {
-    display: none;
-  }
   .storymap-link {
     display: inline-block;
     color: #767676;
